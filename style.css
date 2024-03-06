@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+:root{
+--Softblue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);    
+--Verydarkbluemain: hsl(217, 54%, 11%);
+--Verydarkbluecard : hsl(216, 50%, 16%);
+--Verydarkblueline: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+}
+html{
+    box-sizing: border-box; /*si no pones esto se sobrepasa */
+    font-size: 62.5%; /*cada rem son 10 píxeles */
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: "Outfit", sans-serif;
+    background-color: var(--Verydarkbluemain);
+}
+body .inside{
+    margin-left: 20px;
+    margin-right:20px;
+    margin-top:200px;
+    margin-bottom:50px;
+    background-color: var(--Verydarkbluecard);
+    border-radius: 10px; 
+}
+header img{
+    margin-top:20px;
+    margin-left:20px;
+    max-width: 300px;
+    border-radius: 10px;
+}
+h1{
+    font-size: 600;
+    color: var(--White);
+    margin-top:20px;
+    margin-left:20px;
+}
+p{
+    font-size: 18px;
+}
+.prim p{
+    color:var(--Softblue);
+    margin-left:20px;
+}
+.icons{
+    display:flex;
+    align-items:center;
+}
+.eter{
+    display: flex;
+    align-items: center;
+    margin-left:20px;
+}
+.eter p{
+    margin-left: 20px;
+    color: var(--Cyan);  
+}
+.time{
+    display: flex;
+    align-items: center;
+    margin-left:80px;
+}
+.time p{
+    margin-left: 10px;
+    color: var(--Softblue);  
+}
+.ralla{
+height: 1px;
+background-color: var(--Verydarkblueline);
+margin-left: 20px;
+margin-right:20px
+}
+footer{
+    display: flex;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    margin-top:10px;
+    margin-left:20px;
+    border: 2px solid var(--Cyan);
+    border-radius: 50%;
+
+
+}
+footer p{
+    margin-left:10px;
+    color: var(--Softblue);
+}
+footer p span{
+    color: var(--White);
+    
+}
