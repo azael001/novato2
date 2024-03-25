@@ -94,3 +94,11 @@ footer p span{
     color: var(--White);
     
 }
+@media screen and (min-width:1444px) {
+    body{
+        margin-left:770px;
+        margin-right: 770px;
+    }
+
+    
+}
